@@ -58,6 +58,9 @@ export default class Game {
             }
         }
 
+        const winSound = new Audio('YouWin.mp3');
+        winSound.play();
+
         return winner;
     }
 }
